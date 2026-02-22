@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/dashboard/layout,_N_T_/dashboard/apply-od/layout,_N_T_/dashboard/apply-od/page,_N_T_/dashboard/apply-od"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/dashboard/apply-od/__PAGE__",
+    "/dashboard/apply-od",
+    "/dashboard",
+    "/_index",
+    "/_head"
+  ]
+}

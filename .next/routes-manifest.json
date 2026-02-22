@@ -1,0 +1,206 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/dashboard",
+      "regex": "^/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard(?:/)?$"
+    },
+    {
+      "page": "/dashboard/apply-od",
+      "regex": "^/dashboard/apply\\-od(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/apply\\-od(?:/)?$"
+    },
+    {
+      "page": "/dashboard/attendance",
+      "regex": "^/dashboard/attendance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/attendance(?:/)?$"
+    },
+    {
+      "page": "/dashboard/batches",
+      "regex": "^/dashboard/batches(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/batches(?:/)?$"
+    },
+    {
+      "page": "/dashboard/bulk-import",
+      "regex": "^/dashboard/bulk\\-import(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/bulk\\-import(?:/)?$"
+    },
+    {
+      "page": "/dashboard/classrooms",
+      "regex": "^/dashboard/classrooms(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/classrooms(?:/)?$"
+    },
+    {
+      "page": "/dashboard/compliance",
+      "regex": "^/dashboard/compliance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/compliance(?:/)?$"
+    },
+    {
+      "page": "/dashboard/departments",
+      "regex": "^/dashboard/departments(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/departments(?:/)?$"
+    },
+    {
+      "page": "/dashboard/dept-stats",
+      "regex": "^/dashboard/dept\\-stats(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/dept\\-stats(?:/)?$"
+    },
+    {
+      "page": "/dashboard/faculty-workload",
+      "regex": "^/dashboard/faculty\\-workload(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/faculty\\-workload(?:/)?$"
+    },
+    {
+      "page": "/dashboard/marks-approval",
+      "regex": "^/dashboard/marks\\-approval(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/marks\\-approval(?:/)?$"
+    },
+    {
+      "page": "/dashboard/marks-entry",
+      "regex": "^/dashboard/marks\\-entry(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/marks\\-entry(?:/)?$"
+    },
+    {
+      "page": "/dashboard/marks-lock",
+      "regex": "^/dashboard/marks\\-lock(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/marks\\-lock(?:/)?$"
+    },
+    {
+      "page": "/dashboard/my-attendance",
+      "regex": "^/dashboard/my\\-attendance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/my\\-attendance(?:/)?$"
+    },
+    {
+      "page": "/dashboard/my-marks",
+      "regex": "^/dashboard/my\\-marks(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/my\\-marks(?:/)?$"
+    },
+    {
+      "page": "/dashboard/od-approval",
+      "regex": "^/dashboard/od\\-approval(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/od\\-approval(?:/)?$"
+    },
+    {
+      "page": "/dashboard/od-requests",
+      "regex": "^/dashboard/od\\-requests(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/od\\-requests(?:/)?$"
+    },
+    {
+      "page": "/dashboard/programs",
+      "regex": "^/dashboard/programs(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/programs(?:/)?$"
+    },
+    {
+      "page": "/dashboard/subjects",
+      "regex": "^/dashboard/subjects(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/subjects(?:/)?$"
+    },
+    {
+      "page": "/dashboard/tenants",
+      "regex": "^/dashboard/tenants(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/tenants(?:/)?$"
+    },
+    {
+      "page": "/dashboard/timetable",
+      "regex": "^/dashboard/timetable(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/timetable(?:/)?$"
+    },
+    {
+      "page": "/dashboard/users",
+      "regex": "^/dashboard/users(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/users(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/login",
+      "regex": "^/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}
